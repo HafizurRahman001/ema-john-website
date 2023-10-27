@@ -1,0 +1,39 @@
+.product_card {
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    position: relative;
+
+}
+
+.product_body {
+    padding: 0px 7px 45px 12px;
+}
+
+.product_img img {
+    width: 285px;
+    height: 285px;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.product_footer {
+    background-color: #FFE0B3;
+    color: black;
+    cursor: pointer;
+}
+
+.product_footer:hover {
+    background-color: #FFE07F;
+}
+
+.product_footer {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0%;
+}
+
+.card_bottom_up_container {
+    padding-left: 12px;
+}
